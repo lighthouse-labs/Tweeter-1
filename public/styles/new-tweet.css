@@ -1,0 +1,32 @@
+label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+#tweet-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: flex-start;
+  height: 35px;
+  width: 600px;  
+}
+.manage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.simple {
+    color: white;
+    background-color: blue;
+    font-family: Arial;
+    display: flex;
+    justify-content: flex-start;
+}
+.counter {
+    display: flex;
+    justify-content: flex-end;
+    text-align: flex-end;
+}
