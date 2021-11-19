@@ -1,13 +1,12 @@
-
-
-.header1 {
+/* display header top area  */
+.nav-tweet {
   height: 120px;
-  background-color: #4056A1;
   color: #FFFFFF;
   padding: 1.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
 }
-.positioned {
-    position: relative;
-    background:rgb(193, 159, 74);
-    padding: 1.5em;
-  }

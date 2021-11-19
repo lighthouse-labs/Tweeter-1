@@ -1,0 +1,43 @@
+
+.allData {
+    border: 2px solid;
+    margin: 2em;
+}
+div .toptweet {
+    display: flex;
+    justify-content: space-between; 
+}
+div .headertweet {
+    display: flex;
+}
+.img {
+    display: flex;
+}
+.name {
+    display: flex;
+}
+.text {
+    display: flex;
+    justify-content: flex-start;
+}
+.handle {
+    display: flex;
+   color: lightslategrey;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.manage-day{
+    display: flex;
+   
+}
+.icon {
+    display: flex;
+    
+}
+
+i:hover {
+    color:peachpuff ;
+
+  }

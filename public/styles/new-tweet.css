@@ -1,32 +1,44 @@
-label {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: center;
+/* display section create new tweet */
+.new-tweet {
+  margin-top: 10%;
+  padding: 0px 8px 40px 8px;
 }
+/* display textbox when tweet write*/
 #tweet-text {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: flex-start;
   height: 35px;
-  width: 600px;  
+  width: 500px;  
+  padding: 5px;
 }
+/* display label write about yuor huminity tag */
+label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+/* display tweet button and counter */
 .manage {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
 }
+/* display tweet button */
 .simple {
-    color: white;
-    background-color: blue;
-    font-family: Arial;
-    display: flex;
-    justify-content: flex-start;
+  width: 20%;
+  color: white;
+  background-color: blue;
+  font-family: Arial;
+  display: flex;
+  justify-content: flex-start;
 }
+/* display counter label*/
 .counter {
-    display: flex;
-    justify-content: flex-end;
-    text-align: flex-end;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: flex-end;
 }
