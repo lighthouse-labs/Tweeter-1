@@ -1,42 +1,51 @@
-
+/* display out box for all tweet */
 .allData {
     border: 2px solid;
     margin: 2em;
 }
+/* display avatar, name and handler */
 div .toptweet {
     display: flex;
     justify-content: space-between; 
 }
+/* display header tweet */
 div .headertweet {
     display: flex;
 }
+/* display img in new tweet */
 .img {
     display: flex;
 }
+/* display name in new tweet */
 .name {
     display: flex;
 }
+/* display tweet */
 .text {
     display: flex;
     justify-content: flex-start;
 }
+/* display handle new tweet */
 .handle {
     display: flex;
    color: lightslategrey;
 }
+/* display footer new tweet */
 .footer{
     display: flex;
     justify-content: space-between;
 }
+/* display time new tweet */
 .manage-day{
     display: flex;
    
 }
+/* display icons new tweet */
 .icon {
     display: flex;
     
 }
-
+/* display change icon color */
 i:hover {
     color:peachpuff ;
 
